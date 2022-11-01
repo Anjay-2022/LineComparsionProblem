@@ -1,7 +1,5 @@
 package assignment2;
-
 import java.util.Scanner;
-
 public class LineComparisionProblem {
 		public static  float length(int p1x,int p1y,int p2x,int p2y) {
 			float lengthofline=(float)Math.sqrt(Math.pow((p2x-p1x),2)+Math.pow((p2y-p1y),2));
@@ -38,3 +36,4 @@ public class LineComparisionProblem {
 			check(lengthofline1,lengthofline2);
 		}
 }
+
